@@ -1,21 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
-body {
-    background: url('https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-
+body {
+    background: url("https://images.pexels.com/photos/3944463/pexels-photo-3944463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
 
   #txt {
       color: white;
-      font-family: 'Dosis';
+      font-family: 'Big Shoulders Stencil Display', cursive;
       justify-content: center;
       text-align: center;
-      font-size: 100px;
+      font-size: 8rem;
       letter-spacing: 3px;
       margin: 220px;
-      background: rgba(255, 255, 255, 0.25);
-      border-radius: 1rem;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 0.5rem;
       backdrop-filter: blur(10px);
   }
+
